@@ -38,14 +38,52 @@ body {
 }
 
 .nav {
-    background: grey;
-    padding-top: 1%;
+    line-height: 70px;
+    border-bottom: 1px solid #EAEAE8;
+    height: 70px;
+    text-align: right;
+  }
+.menu {
+    margin: 0 30px 0 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    background-color: #00D800;
+    margin: 0 10px;
+    line-height: 70px;
+    display: block;
+    border-bottom: 1px solid #EAEAE8;
+
+  }
+#hamburger {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: block;
+    color: black;
+    display: block;
+    cursor: pointer;
+    width: 26px;
+    float: right;
+  }
+#toggle {
+    display:none;
+}  
+#toggle:checked + .menu {
+        display: block;
 }
+  
 h1 {
     font-family: 'Libre Barcode 39 Text', cursive;
     font-size: 48px;
     font-weight: normal;
-    line-height: 150%;   
+    line-height: 150%;
+
 }
 
 h2 {
@@ -53,6 +91,7 @@ h2 {
     font-size: 36px;
     font-weight: normal;
     line-height: 180%;
+
 }
 .title {
     margin: 15% 5%; 
@@ -158,7 +197,7 @@ a > img {
 
     width: 42px;
 	height: 42px;
-	line-height: 42px;
+	line-height: 44px;
 	text-align: center;
 	color: #FFF;
 	color: rgba(255, 255, 255, 0.80);
@@ -196,14 +235,14 @@ form {
 }
 
 input[type=text], textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
 }
 
 form {
@@ -211,9 +250,7 @@ form {
     font-size: 16px;
     }
 
-label {
-    color: white;
-}    
+
 ::placeholder {
     font-family: 'Open Sans', sans-serif;
 }
@@ -241,3 +278,18 @@ input:hover{
 
 }
 
+@media (min-width: 768px){
+    #hamburger {
+        display: none;
+    }
+    .menu {
+        flex-wrap: wrap;
+        display: inline-flex;
+        
+    }
+    .menu a {
+        width: 20%;
+        background-color: white;
+    }
+    
+}}
