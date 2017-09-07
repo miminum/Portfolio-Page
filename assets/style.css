@@ -7,6 +7,11 @@ font-family: 'Noto Serif', serif; **/
     padding: 0;
     }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+    }
+
 .logocontainer {
     width:40px;
     height:40px;
@@ -32,6 +37,10 @@ font-family: 'Noto Serif', serif; **/
  -webkit-transform: rotate(-45deg); /* Safari and Chrome */
 }
 
+.nav {
+    background: grey;
+    padding-top: 1%;
+}
 h1 {
     font-family: 'Libre Barcode 39 Text', cursive;
     font-size: 48px;
@@ -46,7 +55,7 @@ h2 {
     line-height: 180%;
 }
 .title {
-    margin: 15% 5%;  
+    margin: 15% 5%; 
     }
 .titletop {
     text-align: right;
@@ -130,3 +139,105 @@ a > img {
     padding: 5%;
     
 }
+.social-icons{
+    list-style: none;
+    text-align: center;
+}
+.social-icons li{
+    display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+.social-icons .fa {
+	font-size: 1.8em;
+}
+
+.social-icons .fa {
+
+    width: 42px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.80);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.fa:visited {
+    text-decoration: none;
+}
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+.fa-facebook:hover{
+    background-color:#3C599F;
+}
+.fa-github:hover {
+    background-color:rgba(255, 255, 255, 0.80);
+    color: #070709;
+}
+.fa-linkedin:hover {
+    background-color: #0085AE;
+}
+.fa-instagram:hover {
+    background-color: #e95950;
+}
+.fa-codepen:hover {
+    background-color: rgba(255, 255, 255, 0.80);
+    color: #070709;
+}
+form {
+    width: 100%;
+}
+
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+form {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    }
+
+label {
+    color: white;
+}    
+::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#message {
+    min-height: 150px;
+}
+
+.buttonposition {
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: #147B40;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;    
+       
+}
+
+input:hover{
+
+}
+
