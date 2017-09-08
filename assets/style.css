@@ -25,6 +25,12 @@ body {
     -webkit-transform: rotate(45deg);
     margin: 5% 0 0 5%;
     float: left;
+    -webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    cursor:pointer;
     
 }
 
@@ -57,12 +63,16 @@ body {
 .menu a {
     clear: right;
     text-decoration: none;
-    background-color: #147B40;
+    background-color: #606568;
     margin: 0 10px;
     line-height: 70px;
     display: block;
     border-bottom: 1px solid #EAEAE8;
+    font-weight: bold;
 
+  }
+  .menu a:visited {
+      color: black;
   }
 #hamburger {
     padding-top: 5px;
@@ -102,6 +112,7 @@ h2 {
     }
 .titletop {
     text-align: right;
+    font-family: 'Libre Barcode 39 Text', cursive;
 
 }
 .titlebottom {
@@ -198,7 +209,7 @@ a > img {
     height: auto;
 }
 #contact {
-    background-color: black;
+    background-color: #606568;
     padding: 5%;
     
 }
@@ -251,6 +262,10 @@ a > img {
     background-color: rgba(255, 255, 255, 0.80);
     color: #070709;
 }
+.fa-free-code-camp:hover {
+    background-color: #006400;
+}    
+
 form {
     width: 100%;
 }
@@ -300,6 +315,19 @@ input[type=submit] {
     }
     .nosm {
         display: none;
+    }
+    .snowboard {
+        background-position: 68% 50%;
+    }
+    .rocks {
+        background-position: right;
+    }
+    h1 {
+        font-size:36px;
+    }
+    .rocks {
+        background-size: 165%;
+        background-position: 25% 75%;
     }
 }
 
@@ -367,11 +395,26 @@ input[type=submit] {
 p {
     margin-bottom: 3%;
 }
+#me {
+    text-align: center;
+}
+#languages {
+    text-align: center;  
+  
+}
+#works {
+    text-align: center;
+}
+#contact .heading{
+    text-align: center;
+}
 .mecontainer {
-    width: 50%; 
+    width: 60%;
+    margin-left: 20%;
+     
 }
 .box{
-    width: 30%;
+    width: 20%;
     margin: 0;
     padding: 0 10%;
 }
@@ -379,18 +422,39 @@ p {
     background-color: black;   
 
 }
+ul{
+    margin-left: -30px;
+}
 .social-icons li{
     margin: 15px 20px 0 20px;
     
 }
 .projectbox{ 
-    width: 33%;
+    width: 30%;
+    margin: 0 1.5%;
 
 }
 #works container {
     justify-content: space-between;
 }
-.snowboard {
-    background-position: 
+.logocontainer:hover {
+    transform: rotate(135deg);
+    -ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg);
 }
+.logocontainer:hover > span {
+    transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg); /* IE 9 */
+    -webkit-transform: rotate(-135deg);
+    color: black;
+    
+}
+.rocks{
+    background-position: 0% 60%;
+}
+form {
+    width: 60%;
+    margin-left: 20%;
+}
+
 }
