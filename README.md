@@ -22,6 +22,7 @@ I also quite liked certain concepts seen on numerous portfolio pages such as:
 
 [Chris Hardy Portfolio Page](http://chrishardydesigns.com/): I liked the simplicity of colours; white and light grey backgrounds and I especially liked the concept of the portfolio layout which had nice uneven geometry.
 
+[Ben Adam Portfolio Page](http://benadam.me/): Similar concept here and I like the logo.
 
 
 [Image Paralax Effect](https://codepen.io/abhi_sarkar96/pen/pryjvq): Paralax scenery shots that I took from my travels. 
