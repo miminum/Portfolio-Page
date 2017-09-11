@@ -69,15 +69,16 @@ Create HTML/CSS form that includes, firstname, lastname, email, message and subm
   * Some animations such as the logo animation
   * Typography pairing
   * Making a .svg logo through figma and turning that into a favicon.
-  * 
+
 
 ## Some Problems
   * I could not get the image parralax to work on mobile devices; I just had to fix the image to a certain position so that the focal point could be viewed.
   * Colour pallete may not be geared towards the target audience. The contact section of my webpage initially had a black background but I changed it to grey to be more neutral.
   * Logo doesn't look that clean and it interferes with the underline of the a: hover elements on the nav bar
   * Title page couldnt be more interesting.
+  * Have a lot of duplicate CSS properties that could have been joined together to have less code. I have about 400 lines of css.
 
 ### Conclusion:
-I quite enjoyed this project. 
+I quite enjoyed this project. It was a good experience and 
 
 
