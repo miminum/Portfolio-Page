@@ -1,5 +1,5 @@
 # My Portfolio Page
-## www.danielhuong.netlify.com
+## danielhuong.netlify.com
 ## Aim
 The main target of my portfolio website is future employers or clients. My goal is to create a clean and functional portfolio website which shows who I am and what my skills are. I want the aesthetic of the page to be simple but professional with a bit of flair.
 
